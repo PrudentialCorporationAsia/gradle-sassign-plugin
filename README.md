@@ -6,17 +6,19 @@ This is provided under the [Apache 2.0 License](LICENSE.txt).
 
 ## Description
 
+### Overview
+
 This is a gradle plugin to invoke the Secure App Service (SAS) from Symantec. This is specically
 targetted at signing Android APK files. The plugin will create a new signing set for each attempt,
 with the version number, variant and date/time of the call. This is because the Symantec `version`
 has to be unique.
 
-## API Documentation
+### API Documentation
 
 The Symantec API documentation can be found on the
 [Symantec Developer's site](https://developers.websecurity.symantec.com/content/api/us/english/secureappserviceapi.html "Symantec Developer Site").
 
-## Project layout
+### Project layout
 
 The main plugin is in the [plugin](plugin) directory. Various example of invoking the plugin can be
 found inn the [examples](examples) directory.
